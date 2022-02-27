@@ -432,7 +432,7 @@ footer {
       }
       button {
         background-color: #ffa500;
-        padding: 0 0.5rem;
+        padding: 0.3rem 0.5rem;
         img {
           width: 2rem;
           height: 2rem;
@@ -456,5 +456,11 @@ footer {
     h2 {
       max-width: 80%;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-wrap {
+    flex-direction: column;
   }
 }

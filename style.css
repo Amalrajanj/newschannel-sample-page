@@ -493,7 +493,7 @@ footer {
 
 .footer-wrap .feedback .input button {
   background-color: #ffa500;
-  padding: 0 0.5rem;
+  padding: 0.3rem 0.5rem;
 }
 
 .footer-wrap .feedback .input button img {
@@ -510,6 +510,15 @@ footer {
 @media (min-width: 900px) {
   .news-item .news-info h2 {
     max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
